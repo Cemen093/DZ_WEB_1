@@ -1,0 +1,55 @@
+.playerOne span,
+.playerTwo span {
+    margin: 5px;
+    margin-left: 2px;
+    width: auto;
+    font-size: 13px;
+    font-family: segoe ui;
+    /*border: 1px solid red;*/
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field {
+    padding: 15px;
+    width: min-content;
+    background-color: Gainsboro;
+}
+
+.cardContainer {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: flex;
+}
+
+.card {
+    /*на примере у них разный размер так что с этой стройкой не уверен */
+    width: 200px;
+    padding: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 2px;
+    background: Silver;
+    font-size: 100px;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.colorOne {
+    color: red;
+}
+
+.colorTwo {
+    color: black;
+}

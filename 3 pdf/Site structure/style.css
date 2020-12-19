@@ -1,0 +1,110 @@
+h1,
+h2,
+span {
+    margin: 0px;
+    margin-left: 20px;
+    color: white;
+    font-family: segoe ui;
+    vertical-align: middle;
+}
+
+span {
+    font-size: 20px;
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    overflow: auto;
+}
+
+.header {
+    position: absolute;
+    padding-left: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: royalblue;
+}
+
+.content {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: rosybrown;
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: royalblue;
+}
+
+.menu {
+    margin: 15px;
+    padding: 30px;
+    background: #6e1237;
+}
+
+.mainContainer {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.leftContainer,
+.rideContainer {
+    flex-basis: 20%;
+}
+
+.leftContainer {}
+
+.midleContainer {
+    flex-basis: 50%;
+    background: #b65b80;
+}
+
+.rideContainer {
+    background: #b65b80;
+}
+
+.leftContainer .block {
+    margin-bottom: 30px;
+    background: #b65b80;
+}
+
+.midleContainer .block {
+    padding-top: 15px;
+    margin: 30px;
+    height: 200px;
+    background: #db92af;
+}
+
+.rideContainer .block {
+    margin-top: 25%;
+    margin-left: 45%;
+    width: .5em;
+    text-align: center;
+    font: Consolas, Monaco, monospace;
+    word-wrap: break-word;
+}
+
+.heightOne {
+    height: 200px;
+}
+
+.heightTwo {
+    height: 300px;
+}

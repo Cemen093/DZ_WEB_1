@@ -1,0 +1,32 @@
+div.main {
+    background-color: Gainsboro;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    font-family: segoe ui;
+}
+
+p {
+    font-family: segoe ui;
+}
+
+pre {
+    font-family: segoe ui;
+}
+
+.pTypeOne {
+    font-size: 16px;
+    color: grey;
+    font-weight: bolder;
+}
+
+.pTypeTwo {
+    font-size: 13px;
+}
+
+.italic {
+    font-style: italic;
+}

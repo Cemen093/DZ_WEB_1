@@ -1,0 +1,27 @@
+h1 {
+    font-family: segoe ui;
+}
+
+div.list {
+    margin: 15px;
+    padding: 15px;
+    font-family: segoe ui;
+    background-color: Gainsboro;
+}
+
+.row {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.color1 {
+    background-color: #e2e2e2;
+}
+
+.color2 {
+    background-color: #a5ccda;
+}
+
+.color3 {
+    background-color: #add8e6;
+}

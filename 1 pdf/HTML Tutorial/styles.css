@@ -1,0 +1,45 @@
+div.main {
+    padding: 15px;
+    background-color: Gainsboro;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+.colRed {
+    color: FireBrick;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.borderBottom {
+    border-bottom: 1px dashed #000080;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.code {
+    padding: 10px;
+    background: Silver;
+}
+
+.tagContainer {
+    margin-top: 15px;
+    display: flex;
+}
+
+.tag {
+    font-size: 13px;
+    font-family: segoe ui;
+    margin: 1px;
+    margin-left: 3px;
+    background: Silver;
+    color: SeaGreen;
+}

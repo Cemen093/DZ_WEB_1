@@ -1,0 +1,21 @@
+h1 {
+    font-family: segoe ui;
+}
+
+div.main dl {
+    font-family: segoe ui;
+}
+
+.main {
+    margin: 5px;
+    padding: 10px;
+    background-color: Gainsboro;
+}
+
+.color1 {
+    color: blue;
+}
+
+.color2 {
+    color: gray;
+}
